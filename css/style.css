@@ -1,0 +1,104 @@
+
+/*
+body(corpo da pagina), está sendo zerada as margem,bordas e preenchimentos.
+*/
+ body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	/*
+body(corpo da pagina), background-color para uma cor de fundo
+*/
+	body{
+		background-color: rgb(197, 186, 186);
+	}
+
+	/*
+no header, está sendo ajustado as cores, fontes, posição de textos e outros...
+*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	background-color: rgba(12, 12, 12, 0.685);
+	height: 50px;
+	padding-top: 25px;
+	color: #ffffffe3;
+	text-align: center;
+}
+
+/*
+Organização do "menu"
+*/
+.menu a{
+    color: rgb(43, 10, 121);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/*
+organizaçao da estrutura principal da pagina 
+*/
+main {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	flex-wrap: wrap;	
+}
+/*
+. box, vai indicar a mudança em todo o corpo do texto na qual foi indicada a classe "box".
+*/
+.box {
+	width: 260px;
+	height: 300px;
+	background-color: #13010191;
+	color: #000000; 
+	margin-bottom: 15px;
+}
+/*
+Sombreado no fundo das figuras
+*/
+.box:hover {
+	box-shadow: 10px 10px 15px #000000;
+}
+/*
+estilização do titulo h2
+*/
+.box h2 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	background-color: rgb(63, 63, 63);
+}
+/*
+mudanças nas figuras colocadas
+*/
+.box figure {
+	width: 200px;
+	height: 300px;
+	padding-top: 10px;
+	text-align: center;
+	margin: auto;
+}
+/*
+definição do tamanho de imagem
+*/
+img {
+	width: 150px;
+	height: 200px;    
+}
+
+/*
+ajuste no rodapé da pagina, cores, tamanho, alinhamentos, entre outros..
+*/
+
+footer {
+	background-color: rgba(46, 45, 53, 0.637);
+	height: 40px;
+	padding-top: 10px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
